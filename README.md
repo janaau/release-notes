@@ -1,6 +1,32 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
+## Release 2026-11-03
+* All Backends
+  * Use new base image
+* All UIs
+  * Use docker-spa 2.40.0
+  * Angular 19 (except for Workspace UI)
+* Announcement 1.12.0
+* Data Orchestrator 1.11.0
+* Help 1.10.0
+* IAM 1.12.0
+* Parameter 1.11.0
+* Permission 1.15.0
+* Product-Store 1.16.0
+* Shell ?
+  * Support 18...22
+* Tenant 1.11.0
+* Test 1.14.0
+* Theme 1.14.0
+* User-Profile 1.15.0
+* Welcome 1.12.0
+* Workspace 1.23.0
+
+
+## Release 2026-10-06
+* Shell
+
 
 ## Release 2026-09-11
 * All Backends
@@ -18,6 +44,10 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
   * Fix: Toast messages showing up
   * Fix: Translation issues comming up from remote components
   * Feat: Update Angular preloaders
+
+
+## Release 2026-06-24
+* Shell
 
 
 ## Release 2026-05-18
