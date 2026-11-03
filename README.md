@@ -3,25 +3,39 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 
 ## Release 2026-11-03
 * All Backends
-  * Use new base image
+  - Use new base image
+  - onecx-quarkus3-parent 4.1.0
 * All UIs
-  * Use docker-spa 2.40.0
-  * Angular 19 (except for Workspace UI)
+  - Use docker-spa 2.40.0
+  - Common code improvements, fix code smells
+  - Angular 19 (except for Workspace UI)
 * Announcement 1.12.0
 * Data Orchestrator 1.11.0
+  - Feat: Use URL parameter for search criteria
 * Help 1.10.0
 * IAM 1.12.0
+  - Feat: Use URL parameter for search criteria
 * Parameter 1.11.0
+  - Feat: Layout improvements
 * Permission 1.15.0
+  - Feat: Extend quick filter on application detail with CREATE and SEARCH
 * Product-Store 1.16.0
+  - Feat: Use URL parameter for search criteria
 * Shell ?
-  * Support 18...22
+  * Support Angular 18...22
 * Tenant 1.11.0
+  - Feat: Enable use of SVG images
 * Test 1.14.0
 * Theme 1.14.0
+  - Feat: Add validation of font settings
+  - Feat: New Extra TAB in theme detail for font and CSS settings (theme overrides)
 * User-Profile 1.15.0
+  - Feat: Use URL parameter for search criteria
 * Welcome 1.12.0
 * Workspace 1.23.0
+  - Fix: Stable sorting of components assigned to slots in workspace exports
+  - Fix: Close avatar menu on topbar click
+  - Feat: Reduce complexity in slot management: implicite slot creation/deletion 
 
 
 ## Release 2026-10-06
